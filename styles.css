@@ -352,3 +352,24 @@ html {
   background:rgba(255, 255, 255, 0.2);
   padding:5px;
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 10px; /* Adjusted to move it closer to the edge */
+    background-color: #ffd1dc; /* Pastel pink background */
+    color: white;
+    border-radius: 50%;
+    width: 80px; /* Icon size */
+    height: 80px; /* Icon size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-decoration: none;
+    border: 4px solid #b39ddb; /* Lilac purple border */
+}
+
+.whatsapp-float i {
+    font-size: 40px; /* Icon size */
+}

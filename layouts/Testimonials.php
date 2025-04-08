@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -20,7 +19,7 @@
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
 
 
-  <title>Testimonios</title>
+  <title>Testimonials</title>
 
     <link rel="canonical" href="https://codepen.io/Adhy/pen/dYegGK">
   
@@ -88,7 +87,7 @@ body{
   margin-top:4%;
   border-radius:10px;
   color:#eee;
-  background:rgba(123, 128, 136, 0.3);
+  background:rgba(128, 0, 255, 0.33);
 }
 
 #ql{
@@ -104,7 +103,7 @@ body{
   font-size:16px;
   text-align:center;
   border-radius:5px;
-  background:rgba(255, 255, 255, 0.2);
+  background:rgba(254, 109, 247, 0.28);
   padding:5px;
 }
 </style>
@@ -120,7 +119,7 @@ body{
 <body translate="no">
   <div id="TestC" class="carousel slide" data-ride="carousel">
   <div class="redz">
-  <h1>Testimonials</h1>
+  <h1>See what everyone is saying about us</></h1>
   <!--Contenedor slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
@@ -168,13 +167,13 @@ body{
   </a>
   <!--Fin Controles-->
 </div>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-      <script id="rendered-js" >
-$('.carousel').carousel({
-  interval: 4000 });
-//# sourceURL=pen.js
-    </script>
+<script id="rendered-js">
+    $('.carousel').carousel({
+        interval: 5000 // Set the interval to 5000ms (5 seconds)
+    });
+</script>
 
   
 </body>
