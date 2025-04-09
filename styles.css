@@ -1,8 +1,8 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
     color: #333; /* Neutral text color */
     background: linear-gradient(to right, #fffdd0, #ffd1dc); /* Cream to pastel pink gradient */
     margin: 0;
@@ -11,18 +11,12 @@ body {
 }
 
 header {
+    font-family: 'Montserrat', sans-serif;
     background: linear-gradient(to right, #fffdd0, #ffd1dc); /* Same cream-to-pink gradient as body */
-    color: #333;
+    color: #b39ddb;
     padding: 40px 20px;
     text-align: center;
     position: relative;
-}
-
-header .logo {
-    display: block;
-    margin: 0 auto 20px; /* Center the logo and add spacing below */
-    width: 200px; /* Adjust the width of the logo */
-    height: auto; /* Maintain aspect ratio */
 }
 
 header .hero-content h1 {
@@ -30,9 +24,7 @@ header .hero-content h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #b39ddb; /* Pastel purple */
 }
-
 /* Menu Styling */
 .menu {
     position: absolute;
@@ -141,17 +133,6 @@ section img {
     margin: 0 auto; /* Center the image horizontally */
     box-sizing: border-box; /* Include the border in the element's dimensions */
 }
-
-/* Keyframes for seamless horizontal scrolling */
-@keyframes scrollTestimonialsHorizontal {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-50%); /* Adjust based on the number of testimonials */
-    }
-}
-
 /* Courses Section */
 #courses {
     text-align: center;

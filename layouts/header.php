@@ -1,13 +1,7 @@
-<a href="index.php">    <img src="images/Creart-logo-1.png" alt="Creart Academy Logo" class="logo"></a>
-    <nav class="menu">
-        <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#testimonials">Testimonials</a></li> <!-- Updated href -->
-            <li><a href="contact.php">Contact</a></li>
-        </ul>
-    </nav>
+    <a href="index.php">    
+        <img src="images/Creart-logo-1.png" alt="Creart Academy Logo" class="logo" width="400">
+    </a>
     <div class="hero-content">
-        <h1>Welcome to Creart Beauty Academy</h1>
-        <p>We are located in Southern Bogota and are excited to have you here! Below, you will find information about our courses and testimonials from our students.</p>
+<h1>Welcome to Creart Beauty Academy</h1>
     </div>
+    <p style="color:black">We are located in Southern Bogota and are excited to have you here! Below, you will find information about our courses and testimonials from our students.</p>

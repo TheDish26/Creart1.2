@@ -15,3 +15,5 @@
   <a href="terms-and-conditions.php">Terms and Conditions</a>
   <p>&copy; 2025 Creart Beauty Academy. All rights reserved.</p>
 </footer>
+
+
