@@ -29,7 +29,7 @@
   
 <style>
 body{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Montsserat', sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -87,7 +87,7 @@ body{
   margin-top:4%;
   border-radius:10px;
   color:#eee;
-  background:rgba(128, 0, 255, 0.33);
+  background: #b39ddb;
 }
 
 #ql{
@@ -103,7 +103,7 @@ body{
   font-size:16px;
   text-align:center;
   border-radius:5px;
-  background:rgba(254, 109, 247, 0.28);
+  background: #ffd1dc;
   padding:5px;
 }
 </style>

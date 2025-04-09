@@ -100,19 +100,9 @@ section img {
 }
 
 #testimonials p {
-    font-size: 1.2em;
-    color: #333; /* Neutral text color */
+    font-size: 1em;
+    color: #333; /* Black text color */
     margin-bottom: 30px;
-}
-
-.testimonial-container {
-    display: flex;
-    gap: 20px; /* Space between testimonials */
-    overflow: hidden; /* Keep the scrolling effect */
-    position: relative;
-    height: auto; /* Adjust height based on content */
-    width: 120%; /* Increase the width to fit all testimonials */
-    animation: scrollTestimonialsHorizontal 20s linear infinite; /* Adjust duration for smooth scrolling */
 }
 
 .testimonial-container .testimonial {
